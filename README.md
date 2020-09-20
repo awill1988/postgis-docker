@@ -2,7 +2,7 @@
 
 Adds ARM support for deploying to RPi clusters
 
-As of late September 2020, postgis debian package does not have support for ARM architectures.
+As of late September 2020, postgis debian (stable) apt package does not have support for ARM architectures.
 
 However, the next debian release Bullseye does. This project stitches a solution using the following projects:
 - [docker-library/postgres](https://github.com/docker-library/postgres)
